@@ -1,0 +1,105 @@
+@font-face {
+    font-family: inter;
+    src: url(static/Inter-Regular.ttf);
+}
+
+body{
+    background-color: #808080b6;
+}
+
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 378px;
+    height: 489px;
+    border: 1px solid #F4B4B47A;
+    margin-top: 131px;
+    margin-left: 560px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+img{
+    width: 359px;
+    height: 200.52px;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-right: 10px;
+}
+
+.paragraph1{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #616161;
+    margin-left: 31px;
+    margin-top: 8.48px;
+    margin-bottom: 0;
+}
+
+.input_email{
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #F4B4B47A;
+    margin-left: 31px;
+    margin-top: 6px;
+}
+
+.input_email::placeholder{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #9E9E9E;
+    padding-left: 10px;
+    background: url(person.png);
+    background-position: right center;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+}
+
+
+.paragraph2{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #616161;
+    margin-left: 31px;
+    margin-bottom: 0;
+}
+
+.input_password{
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #F4B4B47A;
+    margin-left: 31px;
+    margin-top: 6px;
+    background: url(eye-slash.png);
+    background-position: right center;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+}
+
+.input_password::placeholder{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #9E9E9E;
+    padding-left: 10px;
+}
+
+.button{
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #6756CB;
+    margin-left: 31px;
+    margin-top: 35px;
+    margin-bottom: 23px;
+}
